@@ -219,17 +219,17 @@ def stigUploadCert():
 
 def main():
 
-	#checkVersion()
-	#stigNtp()
-	#stigAppModeLite()
-	#stigCallHome()
-	#stigSshd()
-	#stigGuiBanner()
-	#stigHttpd()
-	#stigUiAdvisory()
-	#stigPasswordPolicy()
-	#stigSnmp()
-	#stigIrule()
+	checkVersion()
+	stigNtp()
+	stigAppModeLite()
+	stigCallHome()
+	stigSshd()
+	stigGuiBanner()
+	stigHttpd()
+	stigUiAdvisory()
+	stigPasswordPolicy()
+	stigSnmp()
+	stigIrule()
 	stigUploadCert()
 	
 main()
